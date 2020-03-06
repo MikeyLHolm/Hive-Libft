@@ -6,12 +6,13 @@
 /*   By: mlindhol <mlindhol@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/16 10:09:28 by mlindhol          #+#    #+#             */
-/*   Updated: 2020/02/26 11:17:45 by mlindhol         ###   ########.fr       */
+/*   Updated: 2020/03/04 14:08:01 by mlindhol         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+
 # include <string.h>
 # include <stdlib.h>
 
@@ -105,6 +106,7 @@ int					ft_pow(int x, unsigned int y);
 int					ft_printf(const char *format, ...);
 int					ft_strlen_int(const char *str);
 char				*ft_strndup(char *src, int n);
+void				ft_strsplit_free(char ***strsplit);
 void				ft_swap(int *a, int *b);
 char				*ft_tolower_str(char *str, int len);
 char				*ft_toupper_str(char *str, int len);

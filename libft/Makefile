@@ -6,7 +6,7 @@
 #    By: mlindhol <mlindhol@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/16 09:28:21 by mlindhol          #+#    #+#              #
-#    Updated: 2020/02/26 11:18:30 by mlindhol         ###   ########.fr        #
+#    Updated: 2020/03/04 14:08:27 by mlindhol         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,7 @@ LIBFT_SRC =	ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c \
 			ft_swap.c ft_islower.c ft_isupper.c ft_abs.c ft_intlen.c \
 			ft_isspace.c ft_word_count.c ft_strndup.c ft_itoa_uimax.c \
 			ft_intlen_uimax.c ft_itoa_base.c ft_ftoa.c ft_pow.c ft_tolower_str.c \
-			ft_toupper_str.c ft_strlen_int.c ft_atoimax.c
+			ft_toupper_str.c ft_strlen_int.c ft_atoimax.c ft_strsplit_free.c
 
 FT_PRINTF_DIR = ./ft_printf/
 FT_PRINTF_SRC_DIR = $(FT_PRINTF_DIR)srcs/
